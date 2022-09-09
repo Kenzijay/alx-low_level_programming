@@ -1,4 +1,6 @@
 
 #!/bin/bash
 echo 'gcc -E $CFILE -o c
-
+#!/bin/bash
+#echo 'gcc -E $CFILE=0-main.c'
+#
