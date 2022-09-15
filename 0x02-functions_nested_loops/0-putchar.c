@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * main - prin _putchar
- * Return: always 0
+ * main - Entry point
+ *
+ * Description: a program that prints _putchar
+ *
+ * Return: int should return an int
  */
-
 int main(void)
 {
-       _putchar('_');
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -15,7 +17,8 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-        _putchar('\n');
+	_putchar('\n');
 
-        return (0);
+	return (0);
 
+}
