@@ -26,4 +26,5 @@ unsigned int _strspn(char *s, char *accept)
 		if (match != len)
 			return (len);
 	}
-	return
+	return (0);
+}
